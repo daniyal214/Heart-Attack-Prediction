@@ -5,6 +5,7 @@
 - [Motivation](#Motivation)
 - [Technical Aspect](#Technical-Aspect)
 - [Installation](#Installation)
+- [Create Flask App](#Create-Flask-App)
 - [Deployement on Heroku](#Deployement-on-Heroku)
 - [Bug / Feature Request](#Bug-/-Feature-Request)
 - [Technologies Used](#Technologies-Used)
@@ -44,6 +45,14 @@ If you are using a lower version of Python you can upgrade using the pip package
 To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/)
 the repository:
 `pip install -r requirements.txt`
+
+## Create-Flask-App
+- First install Flask on your local system. If you haven't already activated your programming environment, first activate it using
+`$ source env/bin/activate`
+
+- To install Flask, run the following command:
+`$ pip install flask`
+After installing create your base application. You can also refer to this amazing guide on [How To Make a Web Application Using Flask in Python 3](https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3)
 
 ## Deployement on Heroku
 Before deployement, make sure you've pushed your code to github repository. Create your account on [Heroku](https://dashboard.heroku.com/apps).
